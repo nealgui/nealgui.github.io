@@ -6,7 +6,7 @@
 
 .menu-container {
   color: #fff;
-  background-color: #5995DA;
+  background-color: #000000;
   padding: 20px 0;
   display: flex;
   justify-content: center;
@@ -32,15 +32,15 @@
 }
 
 .header-container {
-  color: #5995DA;
-  background-color: #D6E9FE;
+  color: #fff;
+  background-color: #000000;
   display: flex;
   justify-content: center;
 }
 
 .header {
   width: 900px;
-  height: 300px;
+  height: 350px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,6 +48,8 @@
 
 .photo-grid-container {
   display: flex;
+  color: #fff;
+  background-color: #000000;
   justify-content: center;
 }
 
