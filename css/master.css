@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   background-color: #000000;
+  font-family: Helvetica, sans-serif;
 }
 
 .menu-container {
@@ -26,6 +27,7 @@
 
 .login {
   margin-left: 20px;
+  align-items: right;
 }
 
 .signup {
@@ -63,6 +65,8 @@
   align-items: center;
   text-align: center;
   vertical-align: middle;
+
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .first-item {
@@ -74,11 +78,42 @@
 }
 
 .photo-grid-item {
-  border: 1px solid #fff;
+  color:#ffffff;
+  background-color: aqua;
+  font-weight: bold;
+  padding: 10px;
+  border: 2px solid #000000;
+  border-radius: 10px;
   width: 200px;
   height: 100px;
+  text-align:center;
+  vertical-align: middle;
+  opacity: 0.75;
 }
 
+.photo-grid-item:hover {
+  opacity: 1.0;
+}
+
+.faceb {
+  background-color: #4267B2;
+}
+
+.twtr {
+  background-color: #1DA1F2;
+}
+
+.ig {
+  background-color: #BC2A8D;
+}
+
+.lkdn {
+  background-color: #0077B5;
+}
+
+.gthb {
+  background-color: #171515;
+}
 .social,
 .subscribe {
   align-self: flex-end;
